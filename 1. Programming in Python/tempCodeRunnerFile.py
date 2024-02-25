@@ -1,3 +1,3 @@
-a = isinstance("aa", str)
-
-print(a)  
+nums = 34
+for i in nums:
+    print(i)
