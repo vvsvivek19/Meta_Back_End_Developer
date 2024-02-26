@@ -62,7 +62,6 @@ def summarize_order(order):
         return names, total
 
     """
-    print_order(order)
     ### WRITE SOLUTION HERE
     prices = []
     prices = [item["price"] for item in order]
@@ -117,7 +116,8 @@ def main():
     print("Tax for the order is: " + str(tax))
 
     items, subtotal = summarize_order(order)
-    print(items)
-    print(subtotal)
+    print("------------------------")
+    print("Total Amount:", subtotal, "$")
+    print("------------------------")
 if __name__ == "__main__":
     main()
