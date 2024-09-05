@@ -15,5 +15,6 @@ while count < len(favorites):
      count+=1
 
 #using for loop to print indexes of an array along side its items
+favorites = ['Creme Brulee', 'Apple Pie', 'Churros', 'Tiramisu', 'Chocolate Cake']
 for idx, item in enumerate(favorites):
      print(idx, item)
